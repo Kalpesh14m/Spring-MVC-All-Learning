@@ -1,0 +1,18 @@
+package com.java.springmvc.repo;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.java.springmvc.model.LoginForm;
+import com.java.springmvc.model.User;
+
+public class UserRepoImpl {
+	private JdbcTemplate jdbcTemplate;
+	
+	public void register(User user){
+		
+	}
+
+	public User validateUser(LoginForm login){
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.java.springmvc.service;
+
+public class UserServiceImpl implements UserS {
+
+}

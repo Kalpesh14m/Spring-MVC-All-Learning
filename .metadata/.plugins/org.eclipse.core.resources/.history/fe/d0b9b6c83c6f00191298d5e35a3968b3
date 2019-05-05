@@ -1,0 +1,6 @@
+package com.java.springmvc.repo;
+
+public interface UserRepository {
+
+	
+}

@@ -1,0 +1,12 @@
+package com.java.springmvc.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.java.springmvc.service.UserService;
+
+public class RegistrationController {
+
+	@Autowired
+	public UserService userService;
+	
+}

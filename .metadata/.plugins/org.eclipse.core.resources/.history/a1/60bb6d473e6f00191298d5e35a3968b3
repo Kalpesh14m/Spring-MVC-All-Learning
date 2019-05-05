@@ -1,0 +1,5 @@
+package com.java.springmvc.repo;
+
+public class UserHibernateImpl {
+
+}

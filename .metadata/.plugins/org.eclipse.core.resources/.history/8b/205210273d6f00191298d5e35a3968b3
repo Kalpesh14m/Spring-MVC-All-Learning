@@ -1,0 +1,22 @@
+package com.java.springmvc.service;
+
+import org.springframework.stereotype.Service;
+
+import com.java.springmvc.model.LoginForm;
+import com.java.springmvc.model.User;
+import com.java.springmvc.repo.UserRepository;
+
+@Service("userSrevice")
+public class UserServiceImpl implements UserService {
+	
+	private UserRepository userRepo;
+	
+	public void register(User user) {
+		userRepo.register(user);
+	}
+
+	public User validateUser(LoginForm login) {
+		return userRepo.validateUser(login);
+	}
+	
+}

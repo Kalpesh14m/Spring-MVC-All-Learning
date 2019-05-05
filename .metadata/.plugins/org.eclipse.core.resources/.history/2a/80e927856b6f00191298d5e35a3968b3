@@ -1,0 +1,13 @@
+package com.java.springmvc.model;
+
+public class User {
+	private String firsrtName;
+	private String lastName;
+	private String password;
+	private String email;
+	private String userName;
+	private String Address;
+	private int phoneNumber;
+	
+	
+}

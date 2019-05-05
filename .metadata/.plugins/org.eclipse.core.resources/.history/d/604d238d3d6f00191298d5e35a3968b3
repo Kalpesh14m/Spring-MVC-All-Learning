@@ -1,0 +1,32 @@
+package com.java.springmvc.repo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+
+public class UserRepositoryImpl {
+
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	 public void register(User user) {
+		    System.out.println("Inside JDBC REpo");
+		    String sql = "insert into users values(?,?,?,?,?,?,?)";
+
+		    jdbcTemplate.update(sql, new Object[] { user.getUsername(), user.getPassword(), user.getFirstname(),
+		        user.getLastname(), user.getEmail(), user.getAddress(), user.getPhone() });
+		  }
+
+		  public User validateUser(LoginForm login) {
+
+		    String sql = "select * from users where username='" + login.getUsername() + "' and password='" + login.getPassword()
+		        + "'";
+
+		    List<User> users = jdbcTemplate.query(sql, new UserMapper());
+
+		    return users.size() > 0 ? users.get(0) : null;
+		  }
+
+		}
+}

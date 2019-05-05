@@ -1,0 +1,5 @@
+package com.java.springmvc.model;
+
+public class LoginForm {
+
+}

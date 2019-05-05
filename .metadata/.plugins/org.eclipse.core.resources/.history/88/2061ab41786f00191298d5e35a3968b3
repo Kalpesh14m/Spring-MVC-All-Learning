@@ -1,0 +1,20 @@
+package com.java.springmvc.service;
+
+import com.java.springmvc.model.LoginForm;
+import com.java.springmvc.model.User;
+import com.java.springmvc.repo.UserRepo;
+
+public class UserServiceImpl implements UserService {
+
+	public UserRepo userRepo;
+
+	public void register(User user) {
+		userRepo.register(user);
+	}
+
+	public User validateUser(LoginForm login) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

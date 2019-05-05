@@ -1,0 +1,12 @@
+package com.java.springmvc.service;
+
+import com.java.springmvc.model.User;
+
+
+public class UserService {
+
+	
+	void register(User user);
+	
+//	User validateUser(LoginForm login);
+}

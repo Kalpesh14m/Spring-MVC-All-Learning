@@ -1,0 +1,16 @@
+package com.java.springmvc.repo;
+
+import com.java.springmvc.model.LoginForm;
+import com.java.springmvc.model.User;
+
+public class UserRepoImpl {
+	
+	
+	public void register(User user){
+		
+	}
+
+	public User validateUser(LoginForm login){
+		
+	}
+}

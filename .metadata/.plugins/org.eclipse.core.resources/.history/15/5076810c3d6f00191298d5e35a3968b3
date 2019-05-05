@@ -1,0 +1,21 @@
+package com.java.springmvc.service;
+
+import org.springframework.stereotype.Service;
+
+import com.java.springmvc.model.LoginForm;
+import com.java.springmvc.model.User;
+
+@Service("userSrevice")
+public class UserServiceImpl implements UserService {
+	
+	public void register(User user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public User validateUser(LoginForm login) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

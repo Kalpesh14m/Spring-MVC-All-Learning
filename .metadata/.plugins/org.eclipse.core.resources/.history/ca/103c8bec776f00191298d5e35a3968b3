@@ -1,0 +1,23 @@
+package com.java.springmvc.repo;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.java.springmvc.model.LoginForm;
+import com.java.springmvc.model.User;
+
+public class UserHibernateImpl implements UserRepo {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+
+	public void register(User user) {
+	    sessionFactory.getCurrentSession().save(user);
+	}
+
+	public User validateUser(LoginForm login) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

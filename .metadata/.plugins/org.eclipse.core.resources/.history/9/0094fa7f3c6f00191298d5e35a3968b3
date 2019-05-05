@@ -1,0 +1,19 @@
+package com.java.springmvc.service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.handler.UserRoleAuthorizationInterceptor;
+
+import com.java.springmvc.model.User;
+
+@Service("userSrevice")
+public class UserServiceImpl implements UserService {
+	
+	public void register(User user) {
+		userDao.register(user);
+		
+	}
+	
+}
