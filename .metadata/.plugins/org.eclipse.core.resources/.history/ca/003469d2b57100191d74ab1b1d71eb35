@@ -1,0 +1,17 @@
+
+class Main {
+
+	public static void main(String[] args) {
+		System.out.println("in main 1");
+		Main.main("abc");
+		Main.main();
+	}
+
+	public static void main(String args) {
+		System.out.println("in main 2");
+	}
+
+	public static void main() {
+		System.out.println("in main 3");
+	}
+}

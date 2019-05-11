@@ -1,0 +1,22 @@
+
+class A
+{   
+    private void add(int a, int b){
+        System.out.println(a+b);
+    }
+}
+
+class Main extends A
+{
+    public int add(int a, int b){
+        System.out.println(a+b);
+        return (a+b);
+    }
+    
+    public static void main(String[] args) {
+		Main m = new Main();
+		m.add(10,20);
+		
+		System.out.println("In Main 1");
+	}
+}
