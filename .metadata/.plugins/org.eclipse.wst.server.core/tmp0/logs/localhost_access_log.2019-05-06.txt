@@ -22,3 +22,15 @@
 0:0:0:0:0:0:0:1 - - [06/May/2019:02:56:32 +0530] "POST /SpringRegisterUserDemo/loginProcess HTTP/1.1" 200 1028
 0:0:0:0:0:0:0:1 - - [06/May/2019:02:56:36 +0530] "POST /SpringRegisterUserDemo/loginProcess HTTP/1.1" 200 388
 0:0:0:0:0:0:0:1 - - [06/May/2019:02:56:38 +0530] "GET /SpringRegisterUserDemo/home.jsp HTTP/1.1" 200 375
+127.0.0.1 - - [06/May/2019:14:28:55 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:28:57 +0530] "GET /SpringRegisterUserDemo/ HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:15 +0530] "GET /SpringRegisterUserDemo/register HTTP/1.1" 200 1551
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:18 +0530] "GET /SpringRegisterUserDemo/login HTTP/1.1" 200 993
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:21 +0530] "GET /SpringRegisterUserDemo/home.jsp HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:22 +0530] "GET /SpringRegisterUserDemo/register HTTP/1.1" 200 1551
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:23 +0530] "GET /SpringRegisterUserDemo/home.jsp HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:23 +0530] "GET /SpringRegisterUserDemo/login HTTP/1.1" 200 993
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:26 +0530] "POST /SpringRegisterUserDemo/loginProcess HTTP/1.1" 200 1027
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:28 +0530] "GET /SpringRegisterUserDemo/home.jsp HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:29 +0530] "GET /SpringRegisterUserDemo/login HTTP/1.1" 200 993
+0:0:0:0:0:0:0:1 - - [06/May/2019:14:29:35 +0530] "POST /SpringRegisterUserDemo/loginProcess HTTP/1.1" 200 391

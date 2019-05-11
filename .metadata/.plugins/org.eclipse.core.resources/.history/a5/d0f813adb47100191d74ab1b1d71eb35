@@ -1,0 +1,19 @@
+
+class A {
+	private void add() {
+		System.out.println("In A Class");
+	}
+}
+
+class Main extends A {
+	
+	public void add() {
+		add(super);
+		System.out.println("In B Class");
+	}
+
+	public static void main(String[] args) {
+		Main m = new Main();
+		m.add();
+	}
+}
